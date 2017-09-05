@@ -1,0 +1,24 @@
+
+
+2015-05-07
+
+First case to examine:  W_E1E2 == WE2E1 == 0 (we exclude cross excitatory connections)
+
+This condition supports several modes:
+	1) unresponsive if input isn't strong enough
+	2) other conditions (example: )
+	3) Half unidirectionally selective if only 1 of the cross inhibitory connections is strong
+	4) Unselective (if WE1I2 and WE2I1 are very small)
+	5) Full directional selectivity 
+
+One aspect that isn't fully shown here is that ISN vs. non-ISN is not clear
+
+OK, need to modify; how to do it? how about intensity of color?  will try it
+
+Did this, works
+
+Now looking at W_E1E2 = 0.2, W_E2E1 = 0
+
+there are errors, models goes into multiple categories (HalfUni2 and Directional), will need to investigate
+
+
