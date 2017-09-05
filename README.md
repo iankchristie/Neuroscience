@@ -1,5 +1,5 @@
 # Neuroscience
-## A mess of code for various neuroscience projects.
+## A mess of code for various neuroscience endeavors.
 
 ### Classes
 A large part of my focus during college was using computation to improve the biological sciences through data processing and computational modeling.
