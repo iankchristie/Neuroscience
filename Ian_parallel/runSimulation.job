@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+#$ -cwd 
+#$ -l neuro
+#$ -q neuro.q
+
+
+#module load MATLAB/R2014a
+#matlab 
+
+echo "$MYS $MYW"
+/share/apps/scisoft/MATLAB/2014a/bin/matlab -nodesktop -nojvm -singleCompThread -r "addpath('/home/iankc/src');tic;ISN3D115($MYS,$MYW,'path','/home/iankc');toc;quit"
